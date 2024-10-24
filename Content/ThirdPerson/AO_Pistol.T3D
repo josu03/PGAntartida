@@ -1,0 +1,11 @@
+Begin Object Class=/Script/Engine.AimOffsetBlendSpace1D Name="AO_Pistol" ExportPath="/Script/Engine.AimOffsetBlendSpace1D'/Game/Characters/Mannequins/Animations/Manny/Pistol/Aim/AO_Pistol.AO_Pistol'"
+   bContainsRotationOffsetMeshSpaceSamples=True
+   PreviewBasePose="/Script/Engine.AnimSequence'/Game/Characters/Mannequins/Animations/Manny/Pistol/MM_Pistol_Idle_ADS.MM_Pistol_Idle_ADS'"
+   AnimLength=0.066667
+   SampleData(0)=(Animation="/Script/Engine.AnimSequence'/Game/Characters/Mannequins/Animations/Manny/Pistol/Aim/MM_Pistol_Idle_ADS_AO_CC.MM_Pistol_Idle_ADS_AO_CC'")
+   SampleData(1)=(Animation="/Script/Engine.AnimSequence'/Game/Characters/Mannequins/Animations/Manny/Pistol/Aim/MM_Pistol_Idle_ADS_AO_CD.MM_Pistol_Idle_ADS_AO_CD'",SampleValue=(X=-90.000000,Y=0.000000,Z=0.000000))
+   SampleData(2)=(Animation="/Script/Engine.AnimSequence'/Game/Characters/Mannequins/Animations/Manny/Pistol/Aim/MM_Pistol_Idle_ADS_AO_CU.MM_Pistol_Idle_ADS_AO_CU'",SampleValue=(X=90.000000,Y=0.000000,Z=0.000000))
+   BlendSpaceData=(Segments=((SampleIndices[0]=1,SampleIndices[1]=0,Vertices[1]=0.500000),(SampleIndices[0]=0,SampleIndices[1]=2,Vertices[0]=0.500000,Vertices[1]=1.000000)))
+   BlendParameters(0)=(Min=-90.000000,Max=90.000000)
+   Skeleton="/Script/Engine.Skeleton'/Game/Characters/Mannequins/Meshes/SK_Mannequin.SK_Mannequin'"
+End Object
