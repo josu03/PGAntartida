@@ -1,0 +1,33 @@
+Begin Object Class=/Script/Engine.AnimMontage Name="Steel_Attack_Melee_B_Slow_Montage"
+   Begin Object Class=/Script/Engine.AnimDataModel Name="AnimationDataModel"
+   End Object
+   Begin Object Class=/Script/UnrealEd.SceneThumbnailInfo Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Class=/Game/EasyComboBuffering/ECB_Component/BluePrints/BP_ActionState_Notify.BP_ActionState_Notify_C Name="BP_ActionState_Notify_C_0"
+   End Object
+   Begin Object Class=/Game/EasyComboBuffering/ECB_Component/BluePrints/BP_ComboWindow_Notify.BP_ComboWindow_Notify_C Name="ComboWindo_Notify_C_0"
+   End Object
+   Begin Object Name="AnimationDataModel"
+      PlayLength=1.333333
+      FrameRate=(Numerator=30)
+      NumberOfFrames=40
+      NumberOfKeys=41
+   End Object
+   Begin Object Name="SceneThumbnailInfo_0"
+   End Object
+   Begin Object Name="BP_ActionState_Notify_C_0"
+      ActionState=NewEnumerator1
+   End Object
+   Begin Object Name="ComboWindo_Notify_C_0"
+   End Object
+   CompositeSections(0)=(SectionName="Default",LinkedMontage=/Script/Engine.AnimMontage'"Steel_Attack_Melee_B_Slow_Montage"',SegmentIndex=0,SegmentLength=1.333333,LinkedSequence=/Script/Engine.AnimSequence'"/Game/EasyComboBuffering/DemoAssets/Prueba/Mannequin/Animations/ParagonAnims/Steel_Attack_Melee_B_Slow.Steel_Attack_Melee_B_Slow"')
+   SlotAnimTracks(0)=(AnimTrack=(AnimSegments=((AnimReference=/Script/Engine.AnimSequence'"/Game/EasyComboBuffering/DemoAssets/Prueba/Mannequin/Animations/ParagonAnims/Steel_Attack_Melee_B_Slow.Steel_Attack_Melee_B_Slow"',AnimEndTime=1.333333))))
+   Notifies(0)=(TriggerTimeOffset=-0.000100,NotifyName="ComboWindo_Notify_C",NotifyStateClass=/Game/EasyComboBuffering/ECB_Component/BluePrints/BP_ComboWindow_Notify.BP_ComboWindow_Notify_C'"ComboWindo_Notify_C_0"',Duration=0.477516,EndLink=(LinkedMontage=/Script/Engine.AnimMontage'"Steel_Attack_Melee_B_Slow_Montage"',SegmentIndex=0,SegmentLength=1.333333,LinkValue=0.477516,LinkedSequence=/Script/Engine.AnimSequence'"/Game/EasyComboBuffering/DemoAssets/Prueba/Mannequin/Animations/ParagonAnims/Steel_Attack_Melee_B_Slow.Steel_Attack_Melee_B_Slow"'),Guid=ECB5A3C340BB3630D7965A8573EB2075,LinkedMontage=/Script/Engine.AnimMontage'"Steel_Attack_Melee_B_Slow_Montage"',SegmentIndex=0,SegmentLength=1.333333,LinkedSequence=/Script/Engine.AnimSequence'"/Game/EasyComboBuffering/DemoAssets/Prueba/Mannequin/Animations/ParagonAnims/Steel_Attack_Melee_B_Slow.Steel_Attack_Melee_B_Slow"')
+   Notifies(1)=(TriggerTimeOffset=0.000100,NotifyName="BP_ActionState_Notify_C",NotifyStateClass=/Game/EasyComboBuffering/ECB_Component/BluePrints/BP_ActionState_Notify.BP_ActionState_Notify_C'"BP_ActionState_Notify_C_0"',Duration=0.904324,EndLink=(LinkedMontage=/Script/Engine.AnimMontage'"Steel_Attack_Melee_B_Slow_Montage"',SegmentIndex=0,SegmentLength=1.333333,LinkValue=0.904324,LinkedSequence=/Script/Engine.AnimSequence'"/Game/EasyComboBuffering/DemoAssets/Prueba/Mannequin/Animations/ParagonAnims/Steel_Attack_Melee_B_Slow.Steel_Attack_Melee_B_Slow"'),Guid=C68C8A16494EF35B9AAE6FACD9C708C9,TrackIndex=1,LinkedMontage=/Script/Engine.AnimMontage'"Steel_Attack_Melee_B_Slow_Montage"',SegmentIndex=0,SegmentLength=1.333333,LinkedSequence=/Script/Engine.AnimSequence'"/Game/EasyComboBuffering/DemoAssets/Prueba/Mannequin/Animations/ParagonAnims/Steel_Attack_Melee_B_Slow.Steel_Attack_Melee_B_Slow"')
+   SequenceLength=1.333333
+   AnimNotifyTracks(0)=(TrackName="1",TrackColor=(R=0.500000,G=0.500000,B=0.500000,A=1.000000))
+   AnimNotifyTracks(1)=(TrackName="2",TrackColor=(R=0.900000,G=0.900000,B=0.900000,A=0.900000))
+   DataModel=/Script/Engine.AnimDataModel'"AnimationDataModel"'
+   Skeleton=/Script/Engine.Skeleton'"/Game/EasyComboBuffering/DemoAssets/Prueba/Mannequin/Character/Mesh/UE4_Mannequin_Skeleton.UE4_Mannequin_Skeleton"'
+   ThumbnailInfo=/Script/UnrealEd.SceneThumbnailInfo'"SceneThumbnailInfo_0"'
+End Object
